@@ -59,68 +59,76 @@
                                     <action selector="generateGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fNT-Ec-QDH"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="JUE-ap-HQB">
-                                <rect key="frame" x="71.5" y="373" width="271.5" height="150"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="JUE-ap-HQB">
+                                <rect key="frame" x="37" y="339" width="340" height="218"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rgP-Os-Wys">
-                                        <rect key="frame" x="0.0" y="0.0" width="271.5" height="67"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="rgP-Os-Wys">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="100"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9f9-1l-5N1">
-                                                <rect key="frame" x="0.0" y="0.0" width="82.5" height="67"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="7AE-j0-Wew"/>
+                                                    <constraint firstAttribute="height" constant="100" id="ijC-u5-NkS"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="44"/>
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="53"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ha1-K3-4pi">
-                                                <rect key="frame" x="94.5" y="0.0" width="82.5" height="67"/>
+                                                <rect key="frame" x="120" y="0.0" width="100" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="44"/>
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="53"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7G-Lq-FQ3">
-                                                <rect key="frame" x="189" y="0.0" width="82.5" height="67"/>
+                                                <rect key="frame" x="240" y="0.0" width="100" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="44"/>
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="53"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="qFB-Su-6hu">
-                                        <rect key="frame" x="0.0" y="83" width="271.5" height="67"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qFB-Su-6hu">
+                                        <rect key="frame" x="0.0" y="118" width="340" height="100"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTc-HP-jKW">
-                                                <rect key="frame" x="0.0" y="0.0" width="82.5" height="67"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="hQC-3n-eoW"/>
+                                                    <constraint firstAttribute="width" constant="100" id="v2J-JK-wTh"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="44"/>
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="53"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqJ-c4-Qyl">
-                                                <rect key="frame" x="94.5" y="0.0" width="82.5" height="67"/>
+                                                <rect key="frame" x="120" y="0.0" width="100" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="44"/>
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="53"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUZ-Nd-bq8">
-                                                <rect key="frame" x="189" y="0.0" width="82.5" height="67"/>
+                                                <rect key="frame" x="240" y="0.0" width="100" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="44"/>
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="53"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
