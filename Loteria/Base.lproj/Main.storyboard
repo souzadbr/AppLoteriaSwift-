@@ -37,6 +37,9 @@
                                 </segments>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="selectedSegmentTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="generateGame:" destination="BYZ-38-t0r" eventType="valueChanged" id="H1v-Mk-l6J"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgw-S4-XsN">
                                 <rect key="frame" x="16" y="782" width="382" height="50"/>
@@ -52,6 +55,9 @@
                                         <integer key="value" value="12"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="generateGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fNT-Ec-QDH"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="JUE-ap-HQB">
                                 <rect key="frame" x="71.5" y="373" width="271.5" height="150"/>
@@ -59,7 +65,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rgP-Os-Wys">
                                         <rect key="frame" x="0.0" y="0.0" width="271.5" height="67"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9f9-1l-5N1">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9f9-1l-5N1">
                                                 <rect key="frame" x="0.0" y="0.0" width="82.5" height="67"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
@@ -68,7 +74,7 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ha1-K3-4pi">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ha1-K3-4pi">
                                                 <rect key="frame" x="94.5" y="0.0" width="82.5" height="67"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
@@ -77,7 +83,7 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7G-Lq-FQ3">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7G-Lq-FQ3">
                                                 <rect key="frame" x="189" y="0.0" width="82.5" height="67"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
@@ -91,7 +97,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="qFB-Su-6hu">
                                         <rect key="frame" x="0.0" y="83" width="271.5" height="67"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTc-HP-jKW">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTc-HP-jKW">
                                                 <rect key="frame" x="0.0" y="0.0" width="82.5" height="67"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
@@ -100,7 +106,7 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqJ-c4-Qyl">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqJ-c4-Qyl">
                                                 <rect key="frame" x="94.5" y="0.0" width="82.5" height="67"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
@@ -109,7 +115,7 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUZ-Nd-bq8">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUZ-Nd-bq8">
                                                 <rect key="frame" x="189" y="0.0" width="82.5" height="67"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
@@ -143,6 +149,16 @@
                             <constraint firstItem="JRi-uZ-CrO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mg2-bC-Hxh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lbGameType" destination="Sys-ZW-w8B" id="DaR-bi-Moa"/>
+                        <outlet property="scGameType" destination="U63-bQ-6ms" id="bTI-pE-LcC"/>
+                        <outletCollection property="balls" destination="9f9-1l-5N1" collectionClass="NSMutableArray" id="PHv-U9-Low"/>
+                        <outletCollection property="balls" destination="ha1-K3-4pi" collectionClass="NSMutableArray" id="wek-CH-Thi"/>
+                        <outletCollection property="balls" destination="q7G-Lq-FQ3" collectionClass="NSMutableArray" id="UUJ-t9-LRK"/>
+                        <outletCollection property="balls" destination="FTc-HP-jKW" collectionClass="NSMutableArray" id="pPL-4M-pen"/>
+                        <outletCollection property="balls" destination="AqJ-c4-Qyl" collectionClass="NSMutableArray" id="jYz-Vs-6mf"/>
+                        <outletCollection property="balls" destination="vUZ-Nd-bq8" collectionClass="NSMutableArray" id="iV8-Uo-JmM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
